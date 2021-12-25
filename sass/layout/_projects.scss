@@ -3,7 +3,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    margin-right: calc(-1 * var(--project-set-gap));
+    margin-left: calc(-1 * var(--project-set-gap));
   }
 }
 .projects-list__item {
@@ -13,7 +13,7 @@
 
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 2 - var(--project-set-gap));
-    margin-right: var(--project-set-gap);
+    margin-left: var(--project-set-gap);
   }
   @media screen and (min-width: 1200px) {
     flex-basis: calc(100% / 3 - var(--project-set-gap));

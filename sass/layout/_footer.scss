@@ -15,6 +15,7 @@
     text-align: center;
   }
   @media screen and (min-width: 1200px) {
+    min-width: 231px;
     margin-right: 70px;
   }
 }
@@ -44,6 +45,7 @@
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
+
   @media screen and (max-width: 1200px) {
     margin-bottom: 60px;
   }
@@ -52,7 +54,7 @@
   color: var(--footer-main-color);
   margin-bottom: 9px;
   display: block;
-  // margin-right: auto;
+  margin-right: auto;
 }
 .address-mail {
   color: rgba(255, 255, 255, 0.6);
@@ -65,17 +67,11 @@
 }
 
 .footer-logo-social {
-  // @media screen and (min-width: 768px) and (max-width: 1199px)
   @media screen and (min-width: 768px) {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
     justify-content: space-around;
-  }
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
   }
 }
 
