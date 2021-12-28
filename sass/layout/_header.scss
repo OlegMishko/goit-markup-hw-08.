@@ -1,7 +1,15 @@
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   border-bottom: 1px solid #ececec;
+  @media screen and (min-width: 768px) {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 .header-container {
   display: flex;
@@ -123,6 +131,9 @@
   }
 }
 .header-list__item-mail {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 10px;
+  }
   @media screen and (min-width: 1200px) {
     margin-right: 30px;
   }
@@ -159,7 +170,7 @@
   z-index: 5;
   padding-top: 48px;
   padding-bottom: 48px;
-  padding-left: 40px;
+  padding-left: 25px;
   .container {
     display: flex;
     flex-direction: column;
